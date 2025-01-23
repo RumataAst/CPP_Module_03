@@ -6,12 +6,12 @@
 #    By: akretov <akretov@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/02 16:15:06 by akretov           #+#    #+#              #
-#    Updated: 2025/01/19 18:17:45 by akretov          ###   ########.fr        #
+#    Updated: 2025/01/23 15:10:53 by akretov          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= 
-SRCS    := main.cpp
+NAME	= OPEN!
+SRCS    := main.cpp ClapTrap.cpp
 BIN		:= bin
 OBJS    := $(addprefix $(BIN)/, $(SRCS:.cpp=.o))
 INC		:= include
