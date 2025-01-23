@@ -1,6 +1,6 @@
 #include "ScavTrap.hpp"
 
-ScravTrap::ScravTrap(const std::string &name) : ClapTrap(name) {
+ScravTrap::ScravTrap( const std::string &name ) : ClapTrap( name ) {
     _hitPoints = 100;
     _energyPoints = 100;
     _attackDamage = 30;
