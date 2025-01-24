@@ -1,5 +1,13 @@
 #include "ScavTrap.hpp"
 
+ScravTrap::ScravTrap() : ClapTrap() {
+    _hitPoints = 100;
+    _energyPoints = 50;
+    _attackDamage = 20;
+    _dead = false;
+    std::cout << "ScravTrap " << _name << " is constructed" << std::endl;
+}
+
 ScravTrap::ScravTrap(const std::string &name) : ClapTrap(name) {
     _hitPoints = 100;
     _energyPoints = 50;

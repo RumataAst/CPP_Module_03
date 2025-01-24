@@ -1,5 +1,13 @@
 #include "ScavTrap.hpp"
 
+ScravTrap::ScravTrap() : ClapTrap() {
+    _hitPoints = 100;
+    _energyPoints = 100;
+    _attackDamage = 30;
+    _dead = false;
+    std::cout << "ScravTrap " << _name << " is constructed" << std::endl;
+}
+
 ScravTrap::ScravTrap( const std::string &name ) : ClapTrap( name ) {
     _hitPoints = 100;
     _energyPoints = 100;
@@ -9,7 +17,7 @@ ScravTrap::ScravTrap( const std::string &name ) : ClapTrap( name ) {
 }
 
 ScravTrap::ScravTrap(const ScravTrap &copy) :  ClapTrap(copy) {
-    std::cout << "ScravTrap copy constructor called" << std::endl;
+    std::cout << "ScravTrap copy constructor is called" << std::endl;
 }
 
 ScravTrap &ScravTrap::operator = ( const ScravTrap &source ) {

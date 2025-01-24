@@ -4,6 +4,7 @@
 
 class ScravTrap: public ClapTrap {
 public:
+    ScravTrap( void );
     ScravTrap(const std::string &name);
     ScravTrap(const ScravTrap &copy);
     ScravTrap &operator = ( const ScravTrap &source );

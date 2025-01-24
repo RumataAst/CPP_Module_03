@@ -5,9 +5,10 @@
 class FragTrap: public ClapTrap {
 private:
 public:
-    FragTrap( const std::string &name);
-    FragTrap(const FragTrap &copy);
-    FragTrap &operator = ( const FragTrap &source);
+    FragTrap();
+    FragTrap( const std::string &name );
+    FragTrap( const FragTrap &copy );
+    FragTrap &operator = ( const FragTrap &source );
     ~FragTrap();
-    void highFivesGuys(void);
+    void highFivesGuys( void );
 };

@@ -1,10 +1,7 @@
 #pragma once
+
 #include <iostream>
 
-class DiamondTrap {
-private:
-    std::string name;
-
-public:
-    void whoAmI();
-};
+#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
+#include "FragTrap.hpp"
