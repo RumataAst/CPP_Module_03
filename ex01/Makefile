@@ -6,11 +6,11 @@
 #    By: akretov <akretov@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/02 16:15:06 by akretov           #+#    #+#              #
-#    Updated: 2025/01/24 16:59:30 by akretov          ###   ########.fr        #
+#    Updated: 2025/01/25 13:05:48 by akretov          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= ScravTrap
+NAME	= ScavTrap
 SRCS    := main.cpp ClapTrap.cpp ScavTrap.cpp
 BIN		:= bin
 OBJS    := $(addprefix $(BIN)/, $(SRCS:.cpp=.o))

@@ -5,7 +5,7 @@ int main (void) {
     std::string name = "Trap_1";
     std::string name2 = "Trap_2";
 
-    ScravTrap Trap_1(name);
+    ScavTrap Trap_1(name);
     FragTrap Trap_2(name2);
     std::cout << "------------------------" << std::endl;
     Trap_1.attack("Johny");

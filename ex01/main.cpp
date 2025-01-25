@@ -3,8 +3,8 @@
 int main (void) {
     std::string name = "Trap_1";
     std::string name2 = "Trap_2";
-    ScravTrap Trap_1(name);
-    ScravTrap Trap_2 = Trap_1;
+    ScavTrap Trap_1(name);
+    ScavTrap Trap_2 = Trap_1;
     Trap_1.attack("Johny");
     Trap_2.takeDamage(50);
     Trap_2.beRepaired(3);

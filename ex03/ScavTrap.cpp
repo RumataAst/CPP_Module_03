@@ -32,6 +32,10 @@ ScavTrap::~ScavTrap() {
         std::cout << "ScavTrap dissapears" << std::endl;
 }
 
+void ScavTrap::attack( const std::string &target) {
+    std::cout << "Mighty ScavTrap attacks " << target << std::endl;
+}
+
 void ScavTrap::guardGate( void ) {
     std::cout << "ScavTrap is now in Gate keeper mode." << std::endl;
 }

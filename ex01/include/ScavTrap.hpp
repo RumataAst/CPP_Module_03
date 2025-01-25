@@ -2,12 +2,13 @@
 #include "ClapTrap.hpp"
 #pragma once
 
-class ScravTrap: public ClapTrap {
+class ScavTrap: public ClapTrap {
 public:
-    ScravTrap( void );
-    ScravTrap(const std::string &name);
-    ScravTrap(const ScravTrap &copy);
-    ScravTrap &operator = ( const ScravTrap &source );
-    ~ScravTrap();
+    ScavTrap( void );
+    ScavTrap(const std::string &name);
+    ScavTrap(const ScavTrap &copy);
+    ScavTrap &operator = ( const ScavTrap &source );
+    ~ScavTrap();
+    void attack (const std::string &target);
     void guardGate();
 };
