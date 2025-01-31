@@ -4,6 +4,7 @@ DiamondTrap::DiamondTrap()
         : ClapTrap(), FragTrap(), ScavTrap(), _name("Default") {
     _hitPoints = FragTrap::_hitPoints;
     _energyPoints = ScavTrap::_energyPoints;
+    std::cout << "MY ENERGY IS " << _energyPoints << std::endl;
     _attackDamage = FragTrap::_attackDamage;
     _dead = false;
     std::cout << "DiamondTrap " << _name << " is created" << std::endl;
@@ -49,4 +50,8 @@ DiamondTrap::~DiamondTrap() {
 void DiamondTrap::whoAmI() const {
        std::cout << "My name is " << _name 
               << " and my ClapTrap name is " << ClapTrap::_name << std::endl;
+}
+
+void DiamondTrap::printEnergy(void) const {
+    std::cout << _energyPoints << std::endl;
 }

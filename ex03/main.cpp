@@ -11,7 +11,7 @@ int main (void) {
     // ScavTrap Trap_1(name);
     // FragTrap Trap_2(name2);
     DiamondTrap Trap_3(name3);
-
+    Trap_3.printEnergy();
     // std::cout << "------------------------" << std::endl;
     // Trap_1.attack("Johny");
     // Trap_1.takeDamage(8);
