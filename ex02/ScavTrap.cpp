@@ -2,7 +2,7 @@
 
 ScavTrap::ScavTrap() : ClapTrap() {
     _hitPoints = 100;
-    _energyPoints = 100;
+    _energyPoints = 50;
     _attackDamage = 30;
     _dead = false;
     std::cout << "ScavTrap " << _name << " is constructed" << std::endl;
@@ -10,7 +10,7 @@ ScavTrap::ScavTrap() : ClapTrap() {
 
 ScavTrap::ScavTrap( const std::string &name ) : ClapTrap( name ) {
     _hitPoints = 100;
-    _energyPoints = 100;
+    _energyPoints = 50;
     _attackDamage = 30;
     _dead = false;
     std::cout << "ScavTrap " << _name << " is constructed" << std::endl;
